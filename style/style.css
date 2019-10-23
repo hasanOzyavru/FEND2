@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: red;
+}
+
+p {
+    width: 20vw;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;   
+}
+
+li {
+    text-decoration: none;
+    padding: 1em;
+    color: aqua;
+    font-size: 1.5em;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.active {
+    color: green;
+    font-weight: 900;
+}
